@@ -1,6 +1,132 @@
 .App {
   text-align: center;
 }
+.container {
+  box-sizing: border-box;
+  background-color:#8d5534;
+ 
+  display:inline-flex;
+  direction:ltr ;
+height:90em;
+width: 14em;
+ 
+}
+.imgBody{
+  position:absolute;
+  float: right;
+  margin-left: 1.5%;
+  width: 85.3em;
+  height: 49.9em;
+  z-index: -1;
+ 
+
+}
+.myname{
+  font-family: 'Dancing Script', cursive;
+
+  position:absolute;
+  margin-left: 39%;
+  margin-top: 16%;
+  
+  color:#c97754;
+    z-index: 0;
+
+
+}
+.footer{
+  font-family:cursive;
+  position:absolute;
+  
+  margin-top: 50%;
+  
+    color: black;
+    z-index: 0;
+
+}
+.programmerfresh{
+  font-family:cursive;
+  position:absolute;
+  margin-left: 39%;
+  margin-top: 18%;
+  text-decoration:underline #c97754;
+  
+  color:rgb(243, 201, 186);
+    z-index: 0;
+
+}
+
+.img{
+ position: relative;
+ margin-left: 18px;
+ width: 6em;
+border-radius: 12mm;
+
+}
+li{
+  list-style-type:none;
+}
+ul li{
+  position: relative;
+  padding-top: 30px;
+  
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.icon{
+  position: relative;
+  padding: 5px;
+  margin-left:6px;
+
+}
+/* project component */
+
+.project{
+ 
+
+  color:black;
+  position:absolute;
+  float: right;
+  margin-left:14.7%;
+  width: 80em;
+  height: 40em;
+
+
+  
+  
+  /* font-family: 'Dancing Script', cursive;
+  font-family: 'Grand Hotel', cursive;
+  font-family: 'Lobster', cursive; */
+  font-family: 'Open Sans', sans-serif;
+ 
+
+  
+  
+}
+.title{
+  position: absolute;
+  text-align: center;
+
+}
+.projectName{
+  font-family: 'Lobster', cursive;
+  margin-left: 10px;
+  display:inline-block;
+
+}
+.Describe{
+  position: relative;
+  width: 31em;
+  text-align: justify;
+font-family: 'Open Sans', sans-serif; 
+margin-left: 12px;
+
+}
+
+.imgProject{
+  padding: 3px;
+}
 
 .App-logo {
   height: 40vmin;
@@ -14,7 +140,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #2662da;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

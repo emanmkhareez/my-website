@@ -1,0 +1,22 @@
+[
+    {
+        "projectName": "Graduation Project",
+        "Describe": " The purpose of the project called Hospital Management System is to computerize hospital front office management to develop an easy-to-use, simple, fast and cost-effective program. It deals with collecting patient information, diagnostic details",
+        "img1": "https://media-exp3.licdn.com/dms/image/C560BAQHMnA03XDdf3w/company-logo_200_200/0/1519855918965?e=2159024400&v=beta&t=CrP5Le1mWICRcaxIGNBuajHcHGFPuyNA5C8DI339lSk",
+        "img2": "https://media-exp3.licdn.com/dms/image/C560BAQHMnA03XDdf3w/company-logo_200_200/0/1519855918965?e=2159024400&v=beta&t=CrP5Le1mWICRcaxIGNBuajHcHGFPuyNA5C8DI339lSk"
+        
+    },
+    {
+        "projectName": "Evento-Syntax",
+        "Describe":"There is difficult to collect every things about event so to make it more Facilitation we make our website , to introduce service for doing events by contain all products for events. Every company around the world need to make events in special day every year , and these events require a lot of planning to complete it in the best way . so the eventoSyntax here to fully plan and organize events . as well as to save companys' time ,effort and cost for organization event",
+        "img1": "src/component/img/evento1.png",
+        "img2": "src/component/img/evento2.png"
+    },
+    {
+        "projectName": "Salmon Cookies",
+        "Describe": " A website for the sale of salmon is located in five cities. We calculated the expected purchases for each city from 6 in the morning until 7 in the evening",
+        "img1": "/home/eman/asac301/pre/my-app/src/component/img/cookie.png",
+        "img2": "src/img/cookie.png"
+    }
+   
+]
