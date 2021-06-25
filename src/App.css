@@ -86,11 +86,10 @@ a{
  
 
   color:black;
-  position:absolute;
-  float: right;
-  margin-left:14.7%;
-  width: 80em;
-  height: 40em;
+
+
+width: 40em;
+
 
 
   
@@ -103,6 +102,9 @@ a{
 
   
   
+}
+.batikh{
+  padding: 0px;
 }
 .title{
   position: absolute;

@@ -12,7 +12,8 @@ class Project extends React.Component {
         return (
             <>
             
-            <div className="project"><br></br>
+            <div className="project">
+                
                 
                    
                     <h2 className="projectName"> {this.props.projectName}</h2>

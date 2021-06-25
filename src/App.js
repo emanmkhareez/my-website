@@ -39,7 +39,21 @@ constructor(props){
     }
   return (
     <>
-   
+         {this.state.show?
+Data.map((item)=>{
+  return(
+    <Project
+    projectName
+projectName={item.projectName}
+Describe={item.Describe}
+img1={item.img1}
+img2={item.img2}
+
+
+
+    />
+  )
+}):
     <div className="container ">
      
       <ul>
@@ -71,23 +85,12 @@ constructor(props){
       <h4 className="programmerfresh">programmer fresh</h4>
       </div>
        <h4 className="footer">designed by:<span style={{color:' rgb(75, 70, 70)'}}>eman mkhareez</span></h4>
-
-</div>
-{this.state.show?
-Data.map((item)=>{
-  return(
-    <Project
-    projectName
-projectName={item.projectName}
-Describe={item.Describe}
-img1={item.img1}
-img2={item.img2}
+       
+ 
+</div>}
 
 
 
-    />
-  )
-}):null}
        </>
    
   )
