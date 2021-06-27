@@ -7,6 +7,7 @@
 
 ## to see my project click project
 
+(deploy)[https://optimistic-payne-bf8017.netlify.app/]
 # thx
 
 
