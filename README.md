@@ -1,3 +1,17 @@
+# portfolio 
+
+  ## This site is to clarify some information about me and show pictures of the projects I have done
+  ## I used react  to build it
+
+   ## to see my info click on about us 
+
+## to see my project click project
+
+# thx
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -2,8 +2,8 @@
     {
         "projectName": "Graduation Project",
         "Describe": " The purpose of the project called Hospital Management System is to computerize hospital front office management to develop an easy-to-use, simple, fast and cost-effective program. It deals with collecting patient information, diagnostic details",
-        "img1": "https://media-exp3.licdn.com/dms/image/C560BAQHMnA03XDdf3w/company-logo_200_200/0/1519855918965?e=2159024400&v=beta&t=CrP5Le1mWICRcaxIGNBuajHcHGFPuyNA5C8DI339lSk",
-        "img2": "https://media-exp3.licdn.com/dms/image/C560BAQHMnA03XDdf3w/company-logo_200_200/0/1519855918965?e=2159024400&v=beta&t=CrP5Le1mWICRcaxIGNBuajHcHGFPuyNA5C8DI339lSk"
+        "img1": "src/component/img/hospital1.gif",
+        "img2": "src/component/img/hospital2.png"
         
     },
     {
@@ -15,7 +15,7 @@
     {
         "projectName": "Salmon Cookies",
         "Describe": " A website for the sale of salmon is located in five cities. We calculated the expected purchases for each city from 6 in the morning until 7 in the evening",
-        "img1": "/home/eman/asac301/pre/my-app/src/component/img/cookie.png",
+        "img1": "src/component/img/cookie2.png",
         "img2": "src/img/cookie.png"
     }
    

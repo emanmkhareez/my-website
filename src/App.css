@@ -1,116 +1,159 @@
-.App {
+.container{
+  display:grid;
+  grid-auto-rows:minmax(200px,auto);
+  grid-template-columns:1fr  2fr 2fr;
+  grid-template-areas: 
+  "head contant contant  "
+  "head contant contant  "
+  "head myinfo myinfo  "
+  "head project project";
+  
+
+
+}
+.box{
+
   text-align: center;
-}
-.container {
-  box-sizing: border-box;
-  background-color:#8d5534;
- 
-  display:inline-flex;
-  direction:ltr ;
-height:90em;
-width: 14em;
- 
-}
-.imgBody{
-  position:absolute;
-  float: right;
-  margin-left: 1.5%;
-  width: 85.3em;
-  height: 49.9em;
-  z-index: -1;
- 
-
-}
-.myname{
-  font-family: 'Dancing Script', cursive;
-
-  position:absolute;
-  margin-left: 39%;
-  margin-top: 16%;
   
-  color:#c97754;
-    z-index: 0;
-
-
 }
-.footer{
-  font-family:cursive;
-  position:absolute;
-  
-  margin-top: 50%;
-  
-    color: black;
-    z-index: 0;
+/* head  */
 
-}
-.programmerfresh{
-  font-family:cursive;
-  position:absolute;
-  margin-left: 39%;
-  margin-top: 18%;
-  text-decoration:underline #c97754;
-  
-  color:rgb(243, 201, 186);
-    z-index: 0;
+.head{
+
+  grid-area: head;
+  background-color: rgb(62, 2, 77);
+  display:grid;
+  grid-template-rows: repeat(3,100px);
+  grid-template-columns: repeat(4,80px);
+  color: whitesmoke;
 
 }
 
 .img{
- position: relative;
- margin-left: 18px;
- width: 6em;
-border-radius: 12mm;
+ 
+ grid-column-start: 2;
+ grid-column-end: 2;
+ margin-left: 20px;
+ 
 
+  width: 6em;
+ border-radius: 12mm;
+
+ 
+ }
+ .name{
+  grid-row-start: 2;
+  grid-column-start:2;
+grid-column-end:4;
+
+  
+
+ 
+
+ }
+ 
+.icon{
+  padding-left: 10px;
+  margin-left: 10px;
+margin-top: 50px;
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+.icons{
+  padding: 10px;
 }
 li{
   list-style-type:none;
 }
-ul li{
-  position: relative;
-  padding-top: 30px;
+.ul {
+  grid-row-start: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+margin-left: -150px;
+  padding: 10px;
   
+
+
+
+ 
+  
+}
+ul li{
+  padding: 20px;
 }
 a{
   text-decoration: none;
-  color: black;
+  color: whitesmoke;
+  padding: 10px;
 }
-.icon{
-  position: relative;
-  padding: 5px;
-  margin-left:6px;
 
-}
-/* project component */
-
-.project{
- 
-
-  color:black;
-
-
-width: 40em;
-
-
+/* contant */
+.contant{
+  grid-area: contant;
+  display: grid;
+  grid-template-rows:1fr 10em ;
 
   
-  
-  /* font-family: 'Dancing Script', cursive;
-  font-family: 'Grand Hotel', cursive;
-  font-family: 'Lobster', cursive; */
-  font-family: 'Open Sans', sans-serif;
- 
+}
+.imgBody{
+  width:100%;
+}
+.myname{
 
-  
-  
+grid-column-start: 4;
+text-align: center;
+margin-left: 25%;
+margin-top:10%;
+z-index: 0;
+font-family: 'Dancing Script', cursive;
+font-size: 20px;
+ position:absolute;
+  color:rgb(126, 33, 150);
+    z-index: 0;
 }
-.batikh{
-  padding: 0px;
-}
-.title{
-  position: absolute;
+.programmerfresh{
+
+  font-family:cursive;
+  grid-column-start: 4;
   text-align: center;
+  margin-top: -20px;
+
+
+  text-decoration:underline #c97754;
+  
+  color:rgb(124, 32, 120);
+    z-index: 1;
+}
+/* myiformation */
+.myinfo{
+  grid-area: myinfo;
+  margin-top: 20px;
+ 
+}
+.info{
+  text-align: justify;
+  font-size: 20px;
+  margin: 20px;
+  font-family:cursive;
 
 }
+.intro{
+  font-weight: bold;
+  font-size: 15px;
+  font-family:cursive;
+  float: left;
+  margin-top:20px;
+
+}
+/* project */
+.project{
+  grid-area: project;
+
+  
+ 
+}
+
 .projectName{
   font-family: 'Lobster', cursive;
   margin-left: 10px;
@@ -121,8 +164,11 @@ width: 40em;
   position: relative;
   width: 31em;
   text-align: justify;
-font-family: 'Open Sans', sans-serif; 
-margin-left: 12px;
+font-family: 'Open Sans', sans-serif;
+margin-left: 20px;
+font-family:cursive; 
+font-size: 20px;
+
 
 }
 
@@ -130,37 +176,22 @@ margin-left: 12px;
   padding: 3px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.developer{
+  font-size: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #2662da;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
+.introProject{
+ margin-left: -75px;
+  font-weight: bolder;
+  font-size: 20px;
+  margin-top: 140px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+width: 40em;
+font-family:cursive;
+
+
 }
